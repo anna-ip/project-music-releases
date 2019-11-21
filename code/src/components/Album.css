@@ -1,0 +1,103 @@
+.album-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.Album {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+}
+  
+.album {
+    /*width: 500px;*/
+    align-items: center;
+    padding-top: 50px;
+}
+  
+.cover {
+    display: flex;
+    z-index: -1;
+    justify-content: center;
+}
+
+img {
+    width: 450px;
+    padding-bottom: 10px;
+}
+
+.icons {
+    /*display: flex;*/
+    flex-direction: row;
+    z-index: 0;
+    position: absolute;
+    align-self: center;
+    display: none;
+    text-align: center;
+}
+
+.cover:hover .icons{
+    display: block;
+    fill: white;
+    cursor: pointer;
+}
+
+svg:hover {
+    fill: white;
+}
+
+.heart {
+    width: 8%;
+}
+
+.play-button {
+    width: 15%;
+    padding: 0 30px;
+}
+    
+.play-button:hover {
+    width: 25%;
+}
+
+.dots {
+    width: 8%;
+}
+  
+.album-title {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.album-title:hover {
+    /***Underline***/
+    text-decoration-line: underline;
+}
+  
+.artists-name {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    color: #a0a0a0;
+}
+  
+.artists-name:hover {
+  /***Underline***/
+  text-decoration-line: underline;
+}
+
+
+/****** Links ******/
+.album-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+  
+.artists-link {
+    color: #a0a0a0;
+    text-decoration: none;
+}

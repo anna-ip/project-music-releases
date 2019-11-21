@@ -5,8 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: lightgrey;
-  color: black; /*added color here in hope to get something on my site*/
+  background-color: #2d2c28;
 }
 
 code {
@@ -14,7 +13,65 @@ code {
     monospace;
 }
 
+.Header {
+width: 100%;
+}
+
+h1 {
+  color: #a0a0a0;
+  font-weight: bold;
+  text-align: center;
+}
+
 /**** från HTML <script> ****/
 .App-content {
   color: black;
 }
+
+
+
+
+@media (min-width: 668px) and (max-width: 1024px) {
+.Header {
+  text-align: center;
+}
+
+h1 {
+  padding-left: 0;
+}
+
+
+.album {
+  width:45%;
+  padding: 5px;
+}
+
+img {
+  width: 300px;
+  padding-bottom: 10px;
+
+}
+
+
+
+};
+
+@media (min-width: 1025px) {
+  .album {
+    width: 20%;
+    padding-top: none;
+}
+
+.album-title {
+  max-width: fit-content;
+}
+    
+img {
+      width: 95%;
+      padding: 10px;
+}
+
+
+};
+
+

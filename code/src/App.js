@@ -1,9 +1,14 @@
 import React from 'react'
 import data from './data.json'
-import { Album } from './Album'
+import { Album } from 'Album'
+import { artists } from './artists'
+import { Header } from './Header'
 
-console.log(data)
-console.log(Album)
+
+
+/*I console.log(data)*/
+/*console.log(Album)*/
+
 /***** First try as it looked in the very beginning Technigo version *****/
 /*
 export const App = () => {
@@ -15,44 +20,28 @@ export const App = () => {
   )
 }*/
 
-export const App = () => {
-  return (
-    <div className="App">
-      <div>
-        <Album />
-        <artists />
-        Find me in src/app.js!
-      </div>
-      {data.albums.items.map(item => {
-        return <div key={item.id}>{item.name}</div>;
-      })}
-    </div>
-  );
-};
 
-/****Second test as did in Stack Overflow***/
-/*
-export const App = () => {
-  return (
-    <div className="App">
-      {data.albums.items.forEach(item => {
-        return <div key={item.id}>{item.name}</div>;
-      })}
-    </div>
-  );
-}; */
 
-/* **First test**
 export const App = () => {
   return (
     <div>
-      {data.map(() => {
-        return (
-          <Album key={Album.items.name} name={Album.items.name} />
-        );
-      })}
-      Find me in src/app.js!
-    </div>
-  )
-}*/
+      <div>
+        <Header />
 
+        {/* <Album />
+        <artists /> */}
+      </div>
+      <section className="album-container">
+        {data.albums.items.map(item => {
+          return <Album
+            key={item.id}
+            image={item.images[1].url}
+            name={item.name} artists={item.artists[0].name}
+            link={item.external_urls.spotify}
+            artists_link={item.artists[0].external_urls.spotify} />
+        })};
+
+      </section>
+    </div>
+  );
+};
