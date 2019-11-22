@@ -13,6 +13,7 @@ code {
     monospace;
 }
 
+
 .Header {
 width: 100%;
 }
@@ -37,9 +38,9 @@ h1 {
 }
 
 h1 {
+  
   padding-left: 0;
 }
-
 
 .album {
   width:45%;
@@ -48,27 +49,12 @@ h1 {
 
 img {
   width: 300px;
-  
 }
+
+
+
 
 };
 
-@media (min-width: 1026px) {
-  .album {
-    width: 20%;
-    padding-top: none;
-}
-
-.album-title {
-  max-width: fit-content;
-}
-    
-img {
-      width: 95%;
-      padding: 10px;
-}
-
-
-};
 
 

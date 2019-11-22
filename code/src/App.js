@@ -9,18 +9,6 @@ import { Header } from './Header'
 /*I console.log(data)*/
 /*console.log(Album)*/
 
-/***** First try as it looked in the very beginning Technigo version *****/
-/*
-export const App = () => {
-  return (
-    <div>
-      <Album />
-      Find me in src/app.js!
-    </div>
-  )
-}*/
-
-
 
 export const App = () => {
   return (
