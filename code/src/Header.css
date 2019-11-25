@@ -1,0 +1,35 @@
+
+.Header {
+    width: 100%;
+}
+    
+h1 {
+    color: #a0a0a0;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media (min-width: 668px) and (max-width: 1024px) {
+.Header {
+    text-align: center;
+}
+        
+h1 {
+    padding-left: 0;
+}    
+    
+};
+
+/****** This is not working when displayed here *******/
+/*
+@media (min-width: 1025px) and (max-width: 2000px) {
+.Header {
+    text-align: unset; 
+}
+        
+h1 {
+    margin-left: 40px;
+    text-align: left;
+}
+
+}*/

@@ -16,8 +16,6 @@ export const App = () => {
       <div>
         <Header />
 
-        {/* <Album />
-        <artists /> */}
       </div>
       <section className="album-container">
         {data.albums.items.map(item => {
