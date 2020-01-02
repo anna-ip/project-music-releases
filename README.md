@@ -14,3 +14,5 @@ The requirements for this weeks project has been:
 
 
 
+Deployed project on Netlify:
+https://app.netlify.com/sites/music-site-by-anna-almestal/overview
