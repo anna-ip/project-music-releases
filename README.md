@@ -20,7 +20,7 @@ CSS3
 
 
 Deployed project on Netlify:
-https://app.netlify.com/sites/music-site-by-anna-almestal/overview
+https://music-site-by-anna-almestal.netlify.com/
 
 
 
