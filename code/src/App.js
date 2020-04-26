@@ -1,13 +1,8 @@
 import React from 'react'
 import data from './data.json'
 import { Album } from 'Album'
-import { artists } from './artists'
+// import { artists } from './artists'
 import { Header } from './Header'
-
-
-
-/*I console.log(data)*/
-/*console.log(Album)*/
 
 
 export const App = () => {
@@ -15,7 +10,6 @@ export const App = () => {
     <div>
       <div>
         <Header />
-
       </div>
       <section className="album-container">
         {data.albums.items.map(item => {
@@ -26,7 +20,6 @@ export const App = () => {
             link={item.external_urls.spotify}
             artists_link={item.artists[0].external_urls.spotify} />
         })};
-
       </section>
     </div>
   );

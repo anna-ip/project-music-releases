@@ -65,8 +65,7 @@ img {
 .play-button {
     width: 15%;
     padding: 0 30px;
-    filter: alpha(opacity=50);
-    
+    filter: alpha(opacity=50);   
 }
     
 .play-button:hover {
@@ -94,7 +93,6 @@ img {
 }
 
 .album-title:hover {
-    /***Underline***/
     text-decoration-line: underline;
 }
   
@@ -107,10 +105,8 @@ img {
 }
   
 .artists-name:hover {
-  /***Underline***/
   text-decoration-line: underline;
 }
-
 
 /****** Links ******/
 .album-link {
@@ -122,7 +118,6 @@ img {
     color: #a0a0a0;
     text-decoration: none;
 }
-
 
 
 @media (min-width: 1025px) and (max-width: 2000px) {
@@ -158,10 +153,8 @@ img {
 }
 
 .play-button:hover {
-    width: 18%;
-  
+    width: 18%; 
 }
-    
-    
+       
 };
     

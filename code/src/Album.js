@@ -1,18 +1,12 @@
-import React from 'react';
-import data from './data.json';
-import 'components/Album.css';
-
-
-
-/*console.log(data);*/
-/*console.log(data.albums.items[0])*/
+import React from 'react'
+// import data from './data.json';
+import 'components/Album.css'
 
 
 export const Album = (props) => {
     return (
         <div className="album">
             <div className="cover">
-
                 <div className="icons">
                     <img className="heart" src="icons/heart.svg" alt="like" />
                     <a href={props.link} target="blank"> <img className="play-button" src="icons/play.svg" alt="play" /> </a>
@@ -26,10 +20,7 @@ export const Album = (props) => {
             <div className="artists-name">
                 <a className="artists-link" href={props.artists_link} target="blank">{props.artists}</a>
             </div>
-
-
         </div>
-
     )
 }
 
