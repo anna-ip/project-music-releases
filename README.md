@@ -1,25 +1,22 @@
-Project no 9 a music site.
+# A music site.
 
-This week's project was about using React components to build a page which shows new albums and single releases fetching a Spotfiy API to call the top 50 albums and singles.
-
-
-
-* Displayed the following for each album; album cover image, album name, the name of each artist involved.
-* When you hover over an album show a play button
-* When you hover over the play button, it should grow.
-* When you click on the album, it should link to the album's external url in the data
-* When you click on an artist, it should link to the artist's external url in the data
-* Followed provided design & page should be response, showing 4 albums per row on desktop, 2 per row on tablet, and 1 per row on mobile.
+This project is a page which shows new albums and single releases fetched from Spotfiys API to call the top 50 albums and singles.
 
 
-Technologies Implemented:
-React
-JSX
+* Displaying each album; album cover image, album name, the name of each artist involved.
+* A hover effect to show a play button on each album, the play button then grows.
+* When you click the album, it links to the album's external url in the data
+* When you click on an artist, it links to the artist's external url in the data
+* Followed provided design & page is responsive, showing 4 albums per row on desktop, 2 per row on tablet, and 1 per row on mobile.
+
+
+## Technologies Implemented:
+React, JSX
 HTML5
 CSS3
 
 
-Deployed project on Netlify:
+### Deployed project on Netlify:
 https://music-site-by-anna-almestal.netlify.com/
 
 
